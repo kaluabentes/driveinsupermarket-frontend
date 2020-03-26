@@ -5,22 +5,47 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  DriveInSupermarket
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+This is the source code for the frontend of the DriveInSupermakert platform.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+## Conventions
+
+To keep consistency follow these conventions:
+
+### Commits:
+
+`<type>(<scope>): <description>`
+
+For example:
+
+```bash
+$ git commit -m 'feat(button): create button component'
+```
+
+### Branchs
+
+`<username>/<type>/<name-of-the-task-to-be-done>`
+
+For example:
+
+```bash
+$ git checkout -b 'kalu/refactor/login-page'
+```
+
+For more details on conventional commits visit:
+
+[https://www.conventionalcommits.org](https://www.conventionalcommits.org)
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Clone repository.**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    Use git to clone the repository.
 
     ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    git clone git@github.com:kaluabentes/driveinsupermarket-frontend.git
     ```
 
 1.  **Start developing.**
@@ -28,7 +53,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-default-starter/
+    cd driveinsupermarket-frontend/
     gatsby develop
     ```
 
@@ -38,7 +63,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `driveinsupermarket-frontend` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
