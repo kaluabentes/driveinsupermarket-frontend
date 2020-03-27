@@ -54,7 +54,11 @@ For more details on conventional commits visit:
 
     ```shell
     cd driveinsupermarket-frontend/
-    gatsby develop
+    git checkout develop
+    git pull origin develop
+    git checkout -b user/type/task-to-do
+    yarn install
+    yarn develop
     ```
 
 1.  **Open the source code and start editing!**
