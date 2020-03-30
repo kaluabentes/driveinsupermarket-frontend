@@ -5,10 +5,10 @@
   </a>
 </p>
 <h1 align="center">
-  DriveInSupermarket
+  Gatsby
 </h1>
 
-This is the source code for the frontend of the DriveInSupermakert platform.
+This is the source code for the frontend of the <project> platform.
 
 ## Conventions
 
